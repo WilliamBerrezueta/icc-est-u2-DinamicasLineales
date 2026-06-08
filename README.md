@@ -1,18 +1,32 @@
-## Getting Started
+## Dinamicas Lineales
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Estudiante:
 
-## Folder Structure
+William Berrezueta
 
-The workspace contains two folders by default, where:
+# Fecha:08/06/2026
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Descripción:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### LinkedList, Queue y Stack;
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+En esta clase nos enseñaron el uso básico de tres estructuras de datos en Java: `LinkedList`, `Queue` y `Stack`.  
+Se nos explico cómo almacenar elementos, agregar nuevos datos y eliminar elementos según cada estructura.
 
-## Dependency Management
+- `LinkedList`: permite guardar datos en una lista enlazada.
+- `Queue`: funciona como una cola, donde el primer dato que entra es el primero en salir.
+- `Stack`: funciona como una pila, donde el último dato que entra es el primero en salir.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Ejercicio 1: Invertir una cadena con pila
+
+En este ejercicio creamos un método llamado `invertString`, el cual recibe una cadena de texto y devuelve esa misma cadena invertida.
+
+Para lograrlo, se uso una pila con `Deque<Character>` y `ArrayDeque` y primero, el texto se convierte en caracteres con `toCharArray()` y cada letra se guarda en la pila usando `push()`.
+
+Después, se van sacando las letras con `pop()` y como la pila funciona con **LIFO** (último en entrar, primero en salir), las letras salen en orden contrario.
+
+### Captura del codigo:
+
+![alt text](<Captura de pantalla 2026-06-08 085506.png>)
+
+
