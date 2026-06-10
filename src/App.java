@@ -17,6 +17,22 @@ public class App {
         System.out.println("Ejercicio 1");
         System.out.println("Texto original: " + texto);
         System.out.println("Texto invertido: " + invertido);
+
+        System.out.println();
+        System.out.println("Ejercicio 2");
+        System.out.println();
+        Ejercicio2 ejercicio2 = new Ejercicio2();
+
+        String palabra1 = "radar";
+        String palabra2 = "computacion";
+
+        System.out.println("Palabra: " + palabra1);
+        System.out.println("Es palindromo? ");
+        System.out.println(ejercicio2.esPalindromo(palabra1));
+        System.out.println();
+        System.out.println("Palabra: " + palabra2);
+        System.out.println("Es palindromo? ");
+        System.out.println(ejercicio2.esPalindromo(palabra2));
     }
 
     private static void runStack() {
