@@ -81,7 +81,13 @@ public class Ejercicio2 {
 
 ````java
 Ejercicio 2
+
+Palabra: radar
+Es palindromo? 
 true
+
+Palabra: computacion
+Es palindromo? 
 false
 ````
 
